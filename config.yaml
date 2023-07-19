@@ -84,7 +84,7 @@ params:
     - name: linkedin
       url: https://www.linkedin.com/in/jon-bosque-905331189/
     - name: rss
-      url: "https://github.com/posts/index.xml"
+      url: "https://jonboh.github.io/posts/index.xml"
 
   analytics:
     google:
