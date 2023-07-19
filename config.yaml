@@ -81,8 +81,10 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/"
+    - name: linkedin
+      url: https://www.linkedin.com/in/jon-bosque-905331189/
     - name: rss
-      url: "https://github.com/posts/index.xml" # TODO: update
+      url: "https://github.com/posts/index.xml"
 
   analytics:
     google:
