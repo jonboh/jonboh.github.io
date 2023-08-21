@@ -18,7 +18,7 @@ and [usage](https://github.com/jonboh/shai#how-to-use-it) instructions.
 
 ## Command Generation
 In this mode you ask shai to perform a task. Shai will generate a command according
-to your prompt. If it looks ok, with a keyboard combination (<C-a>) you can directly 
+to your prompt. If it looks ok, with a keyboard combination (`<C-a>`) you can directly 
 write the command to your buffer line and inmmedately run it without the need to copy/paste.
 ![Generate a command into the shell buffer line](./git.gif)
 
@@ -38,8 +38,8 @@ shai --generate-script zsh > zsh_assistant.zsh
 source zsh_assistant.zsh
 ```
 
-With this functionality you'll be able to invoke shai with a key combination (<A-s> by default)
-and let shai write its command on your buffer line when you accept its output (<C-a>).
+With this functionality you'll be able to invoke shai with a key combination (`<A-s>` by default)
+and let shai write its command on your buffer line when you accept its output (`<C-a>`).
 No more copy/paste.
 
 ## Command Generation + Explanation
