@@ -48,6 +48,9 @@ that way you can further check that the command actually does what you expect.
 A detail here to take into account is that the request to explain the command,
 only includes the command, not the prompt that you entered to generate it. This
 way we avoid biasing the model and contaminating its explanation with the original task.
+
+You can invoke this explanation once a command has been generated pressing `<C-e>`.
+
 ![Explaining a generated command](./explanation.gif)
 
 ## Command Explanation
@@ -55,6 +58,9 @@ You can ask for an explanation of the command that is currently written in the b
 This can be useful when copying a command from some guide or forum. Again, thanks to the 
 shell integration you can write a command on your cli, invoke shai, press enter, get your
 explanation and be right back in the cli, without the need to copy and paste or typing a thing.
+
+You can invoke shai this way with `<A-e>`.
+
 ![Explaining a command on the buffer line](./explanation_buffer.gif)
 
 ## Why a shell assistant
