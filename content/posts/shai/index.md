@@ -87,3 +87,6 @@ if an API becomes available at some point.
 I also plan on exploring running a model locally, RAM with these models can be a problem, but
 I've heard that quantized versions still provide good results. If something in this
 path is viable I'll add support at some point.
+
+
+If you wanna take a look at the code see the [GitHub repo](https://github.com/jonboh/shai)
