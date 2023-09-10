@@ -124,7 +124,10 @@ rr replay -s 50505 -k
 ```
 
 Then in NeoVim press the key mapped to `continue`, in my case `F7`,
-you'll be prompted to choose the binary that we are debugging:
+you'll be prompted to choose the binary that we are debugging.
+Once connected to the debug session using the `step`, `reverse_step`, `continue` 
+and `reverse_continue` functions, mapped to (`<F7-10>` and `<S-<F7-10>>` in my case)
+you can freely navigate the state of your recording:
 ![GIF starting rr debugging session in NeoVim](./start_debugging.gif)
 
 
