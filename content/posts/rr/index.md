@@ -148,10 +148,11 @@ recording the code of cargo itself.
 I've recently started contributing to Rust, and I wanted to explore how the 
 [enum_variant_names](https://rust-lang.github.io/rust-clippy/master/#/enum_vari) lint
 worked, so in this example we'll use the `clippy-driver` binary with `test/ui/enum_variants.rs`
-as its argument. This binary runs linter on this test file.
+as its argument. This binary runs clippy on this test file.
 
-In the case of clippy, to run the linter without `cargo dev` we have to set `LD_LIBRARY_PATH`.
-The easiest way to set it up is by running `clippy-driver` like this:
+In the case of clippy, to run without `cargo dev lint` we have to set `LD_LIBRARY_PATH`
+following the instructions from the [clippy documentation](https://doc.rust-lang.org/stable/clippy/development/adding_lints.html#running-directly).
+Then we run `clippy-driver` like this:
 ```bash
 LD_LIBRARY_PATH=$(rustc --print target-libdir) ./target/debug/clippy-driver tests/ui/enum_variants.rs 
 ```
