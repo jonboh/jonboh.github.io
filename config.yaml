@@ -15,8 +15,8 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: joboh's blog
-  description: "still learning"
-  keywords: [Blog, Portfolio, Rust]
+  description: "yet another blog with midly helpful things and opinions"
+  keywords: [Blog, Portfolio, Rust, Nix]
   author: jonboh
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -75,9 +75,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
+    Title: "Hello internet traveler"
+    Content: Welcome to my cyber hut.
   socialIcons:
     - name: github
       url: "https://github.com/jonboh"
