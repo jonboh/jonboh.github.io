@@ -31,6 +31,8 @@ in your configuration and Nix will make sure that the formatters are installed.
       yamlfmt.command = "${pkgs.yamlfmt}/bin/yamlfmt";
       stylua.command = "${pkgs.stylua}/bin/stylua";
     };
+
+    # ...extra config, like format on save | format command setup
   }
 }
 ```
