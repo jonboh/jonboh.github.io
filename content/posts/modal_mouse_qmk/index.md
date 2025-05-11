@@ -5,8 +5,6 @@ date: 2025-04-27
 
 ![Modal indicator GIF](./modal_indicator.gif)
 
-![](./indicator.png)
-
 I use a lot of layers on my [ULP Dactyl](https://github.com/jonboh/ulp-dactyl).
 I use most layers with the QMK `MO()` modifier, which means that I have to hold
 the modifier to keep a given layer active, ergonomically it is usually preferred
