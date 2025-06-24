@@ -1,17 +1,14 @@
 baseURL: "https://jonboh.github.io"
 title: jonboh's blog
-paginate: 5
+pagination.pagerSize: 5
 theme: PaperMod
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
 minify:
   disableXML: true
   minifyOutput: true
-
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: joboh's blog
@@ -19,15 +16,13 @@ params:
   keywords: [Blog, Portfolio, Rust, Nix]
   author: jonboh
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
-
   google:
     analytics:
       id: G-6HD3FETMRX
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -43,7 +38,6 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: true
-
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -52,12 +46,10 @@ params:
     favicon32x32: "<link / abs url>"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
-
   label:
     text: "Home"
     icon: /apple-touch-icon.png
     iconHeight: 35
-
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
@@ -70,9 +62,8 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
-
+        # - name: Tags
+        #   url: tags
   # home-info mode
   homeInfoParams:
     Title: "Hello internet traveler"
@@ -84,17 +75,14 @@ params:
       url: https://www.linkedin.com/in/jon-bosque-905331189/
     - name: rss
       url: "https://jonboh.github.io/posts/index.xml"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
   editPost:
     URL: "https://github.com/jonboh/jonboh.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -111,14 +99,14 @@ menu:
       name: posts
       url: /posts/
       weight: 10
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
-    # - identifier: example
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 30
+      # - identifier: tags
+      #   name: tags
+      #   url: /tags/
+      #   weight: 20
+      # - identifier: example
+      #   name: example.org
+      #   url: https://example.org
+      #   weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
