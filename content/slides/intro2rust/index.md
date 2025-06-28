@@ -4,7 +4,8 @@ description: An introduction to Rust talk I gave on 42Urduliz
 date: 2024-05-20
 ---
 
-# intro2rust @ 42 Urduliz
+# [intro2rust @ 42 Urduliz Slides](https://jonboh.dev/intro2rust/)
+
 I went to 42 Urduliz Fundación Telefónica to give an introductory talk about Rust.
 Check the slides [here](https://jonboh.dev/intro2rust/) and the [source code](https://github.com/jonboh/intro2rust)
 
