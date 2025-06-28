@@ -103,10 +103,10 @@ menu:
       name: slides
       url: /slides/
       weight: 20
-    - identifier: CMK Slides
-      name: CMK slides
-      url: /cmk-slides/
-      weight: 30
+      # - identifier: CMK Slides
+      #   name: CMK slides
+      #   url: /cmk-slides/
+      #   weight: 30
       # - identifier: example
       #   name: example.org
       #   url: https://example.org
