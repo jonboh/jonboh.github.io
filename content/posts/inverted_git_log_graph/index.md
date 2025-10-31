@@ -78,6 +78,7 @@ gl() { invert_gitgraph gitgraph "$@"; }
 compdef _git gl=git-log
 ```
 
-For extra reference you can check my [nixos-config](https://github.com/jonboh/nixos-config/blob/b56a3f1c90fc77497f5d14d4f271825a3b0c02eb/home-manager/shell.nix#L81)
+For extra reference you can check my [nixos-config](https://github.com/jonboh/nixos-config/blob/4f73db645fb90d68cf2daf942bd6aa0fb120478f/home-manager/shell.nix#L81).
+
 Here's an example of what it looks like:
 ![](./graph.png)
