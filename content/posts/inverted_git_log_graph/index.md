@@ -76,7 +76,7 @@ invert_gitgraph() {
 }
 
 gitgraph() {
-  git log --graph --oneline --color
+  git log --graph --oneline --color "$@"
 }
 
 gl() { invert_gitgraph gitgraph "$@"; }
