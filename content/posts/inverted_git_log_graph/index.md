@@ -3,17 +3,23 @@ title: "Inverted `git log --graph`"
 date: 2025-10-31
 ---
 # Inverted `git log --graph`
-Using git log --graph is nice, but I dislike that the most relevant commits, are shown at the top of
-the terminal screen, specially if like me your terminal will scroll by 2 lines quitting the pager.
+Using `git log --graph` is nice, but I dislike that the most relevant commits, are shown at the top of
+the terminal screen. If your terminal scrolls some lines after quitting the graph pager, those commits
+will not be visible and you will need to scroll up.
 
-You can use `tac` to invert the output, however the graph will need adjustments to be properly drawn.
-This script substitutes:
+Unfortunately `--graph` and `--reverse` cannot be used together.
+
+You can use `tac` to invert the output, however the graph needs some adjustments to be properly drawn.
+
+The script below substitutes:
+
 | From | To |
 | -------------- | --------------- |
 | \ | / |
 | / | \ |
 | _ |  ̅ |
 
+That will make the graph be properly shown in its reversed form.
 
 ```python
 import re
