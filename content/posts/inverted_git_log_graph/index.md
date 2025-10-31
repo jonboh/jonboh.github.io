@@ -24,8 +24,8 @@ FORWARD_SLASH = "/"
 BACKSLASH = "\\"
 PLACEHOLDER = "<<<SWAP_PLACEHOLDER>>>"
 
-# Partition can be short hash or >=10 whitespaces
-partition_re = re.compile(r"([0-9a-f]{7,12})|(\s{10,})")
+# Partition can be short hash or >=5 whitespaces
+partition_re = re.compile(r"([0-9a-f]{7,12})|(\s{5,})")
 
 
 def substitute_before_partition(line):
