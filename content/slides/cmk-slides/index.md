@@ -5,6 +5,8 @@ date: 2025-06-01
 
 Slides for the "Cool Math Kids Study Group" I do with my friend [Gaizka Perez](https://github.com/gaizka-perez)
 
+- Bayesian Filters: [20251103](./20251103_cmk.pdf)
+  - [20251103-annotated](./20251103_cmk-annotated.pdf)
 - Manifolds: [20250922](./20250922_cmk.pdf)
   - [20250922-annotated](./20250922_cmk-annotated.pdf)
 - Curvature and Torsion: [20250826](./20250826_cmk.pdf)
