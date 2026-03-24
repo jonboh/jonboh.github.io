@@ -5,6 +5,10 @@ date: 2025-06-01
 
 Slides for the "Cool Math Kids Study Group" I do with my friend [Gaizka Perez](https://github.com/gaizka-perez)
 
+- Category Theory: [20260323](./20260323_cmk.pdf)
+  - [20260323-annotate](./20260323_cmk-annotated.pdf)
+- ODEs: [20260223](./20260223_cmk-annotated.pdf)
+  - [20260223-annotated](./202)
 - Bayesian Filters: [20251103](./20251103_cmk.pdf)
   - [20251103-annotated](./20251103_cmk-annotated.pdf)
 - Manifolds: [20250922](./20250922_cmk.pdf)
